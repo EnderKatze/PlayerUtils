@@ -1,0 +1,10 @@
+name: PlayerUtils
+version: '${project.version}'
+main: de.enderkatze.playerutils.PlayerUtils
+authors: [ EnderKatze ]
+description: A plugin with some utils regarding player
+commands:
+  playermenu:
+    usage: /<command<
+    description: opens the player menu
+    permission: playerutils.menu
